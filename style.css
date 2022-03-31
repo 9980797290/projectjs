@@ -1,0 +1,461 @@
+body{
+    background-color: #3D087B;
+}
+.clock{
+    position: relative;
+    top: 34px;
+    left: 124px;
+    width: 204px;
+    height: 77px;
+}
+.Sum{
+    position: absolute;
+    top: 55px;
+    left: 785px;
+    height: 130px;
+    width: 380px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #8E53F0;
+    z-index: -1;
+    opacity: 0.22;
+}
+.Band{
+    width: 416px;
+    height: 130px;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 45px;
+    left: 768px;
+    z-index: 0;
+    opacity: 0.71;
+}
+.box1{
+    width: 536px;
+    height: 130px;
+    border: 1px solid #EDEDED;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    box-sizing: border-box;
+    position: absolute;
+    top: 34px;
+    left: 716px;
+    z-index: 1;
+}
+.time{
+    font-family: sans-serif;
+    font-size: 20px;
+    color: #3D087B;
+    position: absolute;
+    top: 50px;
+    left: 30px;
+}
+.hourss{
+    background-image: url(./lights.png);
+    width: 80px;
+    height: 90px;
+    border: 1px solid #F6E2FF;
+    border-radius: 5px;
+    position: absolute;
+    top: 18px;
+    left: 100px;
+    box-sizing: border-box;
+    color: #8A11BF;
+    font-family: sans-serif;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 15px;
+}
+.time1{
+    color: #3D087B;
+    font-size: 45px;
+    position: absolute;
+    top: 30px;
+    left: 185px;
+}
+.minutess{
+    background-image: url(./lights.png);
+    width: 80px;
+    height: 90px;
+    border: 1px solid #F6E2FF;
+    border-radius: 5px;
+    position: absolute;
+    top: 18px;
+    left: 200px;
+    box-sizing: border-box;
+    color: #8A11BF;
+    font-family: sans-serif;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 15px;
+}
+.time2{
+    color: #3D087B;
+    font-size: 45px;
+    position: absolute;
+    top: 30px;
+    left: 285px;
+}
+.secondss{
+    background-image: url(./lights.png);
+    width: 80px;
+    height: 90px;
+    border: 1px solid #F6E2FF;
+    border-radius: 5px;
+    position: absolute;
+    top: 18px;
+    left: 300px;
+    box-sizing: border-box;
+    color: #8A11BF;
+    font-family: sans-serif;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 15px;
+}
+.am{
+    background-image: url(./purple.png);
+    width: 80px;
+    height: 90px;
+    border: 1px solid #F6E2FF;
+    border-radius: 5px;
+    position: absolute;
+    top: 18px;
+    left: 400px;
+    box-sizing: border-box;
+    color: white;
+    font-family: sans-serif;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 28px;
+}
+.Can{
+    box-sizing: border-box;
+    background-color:#FFFFFF;
+    width: 536px;
+    height: 118px;
+    border: 1px solid #EDEDED;
+    border-radius: 10px;
+    position: absolute;
+    top: 212px;
+    left: 716px;
+}
+.text1{
+    color: #8E53F0;
+    font-size: 25px;
+    position: absolute;
+    top: 42px;
+    left: 45px;
+}
+.Dand{
+    background-image: url(./wakeup.jpg);
+    width: 536px;
+    height: 341px;
+    position: absolute;
+    top: 345px;
+    left: 716px;
+}
+.box2{
+    background-color: #FFFFFF;
+    border: 1px solid #EDEDED;
+    border-radius: 10px;
+    box-sizing: border-box;
+    width: 566px;
+    height: 363px;
+    position: relative;
+    top: 49px;
+    left: 124px;
+}
+.wake{
+    position: absolute;
+    top: 15px;
+    left: 20px;
+}
+.set1{
+    font-family: sans-serif;
+    font-size: 20px;
+    color: black;
+    position: absolute;
+    top: 20px;
+    left: 100px;
+}
+#wakeup{
+    color: black;
+    font-size: 16px;
+    width: 281px;
+    height: 45px;
+    border: 1px solid #EDEDED;
+    border-radius: 5px;
+    position: absolute;
+    top: 10px;
+    left: 270px;
+}
+.horizontal1{
+    height: 40px;
+    width: 0px;
+    position: absolute;
+    top: 45px;
+    left: 38px;
+}
+.lunch{
+    position: absolute;
+    top: 100px;
+    left: 20px; 
+}
+.set2{
+    font-family: sans-serif;
+    font-size: 20px;
+    color: black;
+    position: absolute;
+    top: 110px;
+    left: 100px;
+}
+#lunchtime{
+    color: black;
+    font-size: 16px;
+    width: 281px;
+    height: 45px;
+    border: 1px solid #EDEDED;
+    border-radius: 5px;
+    position: absolute;
+    top: 100px;
+    left: 270px;
+}
+.horizontal2{
+    height: 40px;
+    width: 0px;
+    position: absolute;
+    top:135px; 
+    left:38px; 
+}
+.nap{
+    position: absolute;
+    top: 195px;
+    left: 20px;
+}
+.set3{
+    font-family: sans-serif;
+    font-size: 20px;
+    color: black;
+    position: absolute;
+    top: 200px;
+    left: 100px;
+}
+#eveningtime{
+    color: black;
+    font-size: 16px;
+    width: 281px;
+    height: 45px;
+    border: 1px solid #EDEDED;
+    border-radius: 5px;
+    position: absolute;
+    top: 190px;
+    left: 270px;
+}
+.horizontal3{
+    height: 40px;
+    width: 0px;
+    position: absolute;
+    top: 230px;
+    left: 38px;
+}
+.nightt{
+    font-size: 30px;
+    color: black;
+    position: absolute;
+    top: 295px;
+    left: 25px;
+}
+.set4{
+    font-family: sans-serif;
+    font-size: 20px;
+    color: black;
+    position: absolute;
+    top: 300px;
+    left: 100px;
+}
+#nighttime{
+    color: black;
+    font-size: 16px;
+    width: 281px;
+    height: 45px;
+    border: 1px solid #EDEDED;
+    border-radius: 5px;
+    position: absolute;
+    top: 290px;
+    left: 270px;
+}
+.E{
+    background-color:#56189cde;
+    width: 566px;
+    height: 77px;
+    border-radius: 10px;
+    position: relative;
+    top: 69px;
+    left: 124px;
+}
+.txt2{
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    top: 25px;
+    left: 20px;
+}
+button{
+    border:1px solid #3D087B;
+    background-image: linear-gradient(
+        to right,
+        #6E54EC,
+        #CB52F8,
+        #FC5EFF,
+        #F1A7C5
+    );
+    width: 299px;
+    height: 50px;
+    border-radius: 5px;
+    position: relative;
+    left: 124px;
+    top: 90px;
+    box-sizing: border-box;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.partyy{
+    display: none;
+}
+button:hover .text3{
+    display:none;
+}
+button:hover .partyy{
+    display: contents;
+}
+button:hover{
+    background-image: linear-gradient(
+        to left,
+        #6E54EC,
+        #CB52F8,
+        #FC5EFF,
+        #F1A7C5
+    );
+}
+.F{
+    background-color:#56189cde;
+    width: 253px;
+    height: 117px;
+    border-radius: 10px;
+    position: relative;
+    top: 40px;
+    left: 435px;
+    box-sizing: border-box;
+    padding: 10px 20px;
+}
+.text4{
+    color: #F25CFE;
+    line-height: 25px;
+}
+@media all and (max-width:600px){
+    .clock{
+        position: absolute;
+        left: 20px;
+    }
+    .Sum{
+        position: absolute;
+        left: 68px;
+        top: 165px;
+    }
+    .Band{
+        position: absolute;
+        left: 50px;
+        top: 155px;
+    }
+    .box1{
+        position: absolute;
+        left: 20px;
+        top: 150px;
+        width: 480px;
+    }
+    .hourss{
+        position: absolute;
+        left: 35px;
+    }
+    .time1{
+        position: absolute;
+        left: 125px;
+    }
+    .minutess{
+        position: absolute;
+        left: 150px;
+    }
+    .time2{
+        position: absolute;
+        left: 240px;
+    }
+    .secondss{
+        position: absolute;
+        left: 265px;
+    }
+    .am{
+        position: absolute;
+        left: 375px;
+    }
+    .time{
+        display: none;
+    }
+    .box2{
+        position: absolute;
+        left: 20px;
+        top: 320px;
+        width: 480px;
+    }
+    #wakeup{
+        width: 190px;
+    }
+    #lunchtime{
+        width: 190px;
+    }
+    #eveningtime{
+        width: 190px;
+    }
+    #nighttime{
+        width: 190px;
+    }
+    .E{
+        position: absolute;
+        top: 700px;
+        left: 20px;
+        width: 480px;
+    }
+    button{
+        position: absolute;
+        top: 800px;
+        left: 20px;
+    }
+    .F{
+        position: absolute;
+        top: 870px;
+        left: 20px;
+    }
+    .Can{
+        width: 480px;
+        position: absolute;
+        left: 20px;
+        top: 1010px ;
+    }
+    .text1{
+        font-size: 25px;
+        position: absolute;
+        left: 10px;
+    }
+    .Dand{
+        width: 480px;
+        position: absolute;
+        top:1150px;
+        left: 20px;
+    }
+}
+#image{
+    background-size: contain;
+}
